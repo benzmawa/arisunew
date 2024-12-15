@@ -96,7 +96,7 @@ async def give_filter(client, message):
         if total_results == 0:
             return
         else:
-            return await message.reply_text(f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search}. \n\nTʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...\n\nJᴏɪɴ ᴀɴᴅ Sᴇᴀʀᴄʜ Hᴇʀᴇ - https://t.me/PanindiaFilmZ</b>")
+            return await message.reply_text(f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search}. \n\nTʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...\n\nJᴏɪɴ ᴀɴᴅ Sᴇᴀʀᴄʜ Hᴇʀᴇ - https://t.me/Benzmovies</b>")
 
 @Client.on_message(filters.private & filters.text & filters.incoming)
 async def pm_text(bot, message):
@@ -173,7 +173,7 @@ async def next_page(bot, query):
             InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
+            InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/Benzmovies")
         ])
     else:
         btn = []
@@ -191,7 +191,7 @@ async def next_page(bot, query):
             InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
+            InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/Benzmovies")
         ])
     try:
         if settings['max_btn']:
@@ -413,7 +413,7 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
+            InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/Benzmovies")
         ])
     else:
         btn = []
@@ -432,7 +432,7 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
+            InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/Benzmovies")
         ])
 
     if offset != "":
@@ -582,7 +582,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
+            InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/Benzmovies")
         ])
     else:
         btn = []
@@ -601,7 +601,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
+            InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/Benzmovies")
         ])
 
     if offset != "":
