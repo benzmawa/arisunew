@@ -113,7 +113,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("🔄 Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
             chat_id=message.from_user.id,
-            photo="https://envs.sh/n9A.jpg",
+            photo="https://envs.sh/kn0.jpg",
             caption="**🤖 Join Our Updates Channel to Use Bot**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
