@@ -50,8 +50,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://BENZ:NTER8nm2ioQNLy65@cluster0.98m7oar.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "benzmawafiles")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://benz:hIpmar1LZmJVnQML@benz.9e2o0.mongodb.net/?retryWrites=true&w=majority&appName=Benz")
+DATABASE_NAME = environ.get('DATABASE_NAME', "benz")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'benzmawafiles"')
 
 # Premium And Referal Settings
@@ -92,7 +92,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Shortlink Info
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://Shrinkearn.com')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Shrinkearn.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '55f4c7d964ebb8ef7bf3dda75185e4aca870c285')
 
 # Others
@@ -131,7 +131,7 @@ URL = environ.get("URL", "")
 
 
 # Rename Info ; If True Then Bot Rename File Else Not
-RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or Flase
+RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or Flase
 
 # Auto Approve Info ; If True Then Bot Approve New Upcoming Join Request Else Not
 AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', True)) # Set True or Flase
