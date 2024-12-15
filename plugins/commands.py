@@ -39,13 +39,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
-            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/Benzmovies"), 
+            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/Benzmovies")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Killerlootdeals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🛒 Channels 🦾", url=f"https://t.me/Benzmovies"),
+            InlineKeyboardButton("⚙ ™ BENZ ✨", url=f"https://t.me/benzmawabot")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+veG2PpVpZQ03ZDYx")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -63,25 +63,25 @@ async def start(client, message):
             buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
-            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/Benzmovies"), 
+            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/Benzmovies")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Killerlootdeals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🛒 Channels 🦾", url=f"https://t.me/Benzmovies"),
+            InlineKeyboardButton("⚙ ™ Benz ✨", url=f"https://t.me/Benzmawabot")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+veG2PpVpZQ03ZDYx")
         ]]
         else:
             buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
-            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/Benzmovies"), 
+            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/Benzmovies")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Killerlootdeals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🛒 Channel 🦾", url=f"https://t.me/Benzmovies"),
+            InlineKeyboardButton("⚙ ™ Benz ✨", url=f"https://t.me/Benzmawabot")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+veG2PpVpZQ03ZDYx")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
@@ -124,25 +124,25 @@ async def start(client, message):
             buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
-            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/Benzmovies"), 
+            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/Benzmovies")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Killerlootdeals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🛒 Channel 🦾", url=f"https://t.me/Benzmovies"),
+            InlineKeyboardButton("⚙ ™ Benz ✨", url=f"https://t.me/benzmawabot")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+veG2PpVpZQ03ZDYx")
         ]]
         else:
             buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
-            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/Benzmovies"), 
+            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/Benzmovies")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Killerlootdeals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🛒 Channel 🦾", url=f"https://t.me/Benzmovies"),
+            InlineKeyboardButton("⚙ ™ Benz ✨", url=f"https://t.me/benzmawabot")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+veG2PpVpZQ03ZDYx")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -175,25 +175,25 @@ async def start(client, message):
                 buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
-            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/Benzmovies"), 
+            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/Benzmovies")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Killerlootdeals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🛒 Channel 🦾", url=f"https://t.me/Benzmovies"),
+            InlineKeyboardButton("⚙ ™ Benz ✨", url=f"https://t.me/benzmawabot")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+veG2PpVpZQ03ZDYx")
         ]]
             else:
                 buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
-            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/Benzmovies"), 
+            InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/Benzmovies")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Killerlootdeals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🛒 Channel 🦾", url=f"https://t.me/Benzmovies"),
+            InlineKeyboardButton("⚙ ™ Benz ✨", url=f"https://t.me/benzmawabot")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+veG2PpVpZQ03ZDYx")
         ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
@@ -263,11 +263,11 @@ async def start(client, message):
                 if STREAM_MODE == True:
                     button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url='t.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ADMIN', url='t.me/benzmawabot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],
     [
-        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/PIFSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
+        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/BENZSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
     ],                    
     [
         InlineKeyboardButton("🚀 ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ 🚀", url=download),
@@ -277,11 +277,11 @@ async def start(client, message):
                 else:
                     button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url='t.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ADMIN', url='t.me/benzmawabot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],
     [
-        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/PIFSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
+        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/BENZSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
     ]
                     ]
                 msg = await client.send_cached_media(
@@ -465,11 +465,11 @@ async def start(client, message):
             if STREAM_MODE == True:
                 button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url=f't.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ADMIN', url=f't.me/benzmawabot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],
     [
-        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/PIFSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
+        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/BENZSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
     ],                
     [
         InlineKeyboardButton('🚀 ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}')
@@ -478,11 +478,11 @@ async def start(client, message):
             else:
                 button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url='t.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ADMIN', url='t.me/benzmawabot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],
     [
-        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/PIFSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
+        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/BENZSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
     ]
                              ]
             msg = await client.send_cached_media(
@@ -545,11 +545,11 @@ async def start(client, message):
             if STREAM_MODE == True:
                 button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url=f't.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ADMIN', url=f't.me/benzmawabot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],
     [
-        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/PIFSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
+        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/BENZSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
     ],                
     [
         InlineKeyboardButton('🚀 ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}')
@@ -558,11 +558,11 @@ async def start(client, message):
             else:
                 button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url='t.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ADMIN', url='t.me/benzmawabot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],
     [
-        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/PIFSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
+        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/BENZSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
     ]
                 ]
             msg = await client.send_cached_media(
@@ -624,11 +624,11 @@ async def start(client, message):
     if STREAM_MODE == True:
         button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url=f't.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ADMIN', url=f't.me/benzmawabot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],
     [
-        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/PIFSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
+        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/BENZSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
     ],        
     [
         InlineKeyboardButton('🚀 ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}')
@@ -637,11 +637,11 @@ async def start(client, message):
     else:
         button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url='t.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ADMIN', url='t.me/benzmawabot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],
     [
-        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/PIFSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
+        InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/BENZSearchRobot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴍᴏᴠɪᴇs%20ᴀɴᴅ%20sᴇʀɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
     ]
         ]
     msg = await client.send_cached_media(
