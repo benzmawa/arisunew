@@ -1,6 +1,6 @@
-# Don't Remove Credit @Telugu_Movies_999
-# Subscribe YouTube Channel For Amazing Bot @arya_bro_44
-# Ask Doubt on telegram @arya_Bro
+# Don't Remove Credit @Benzmovies
+# Subscribe YouTube Channel For Amazing Bot @benzmawabot
+# Ask Doubt on telegram @benzmawabot
 
 
 import re
@@ -67,17 +67,17 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'benzmawabot') # owner username w
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+veG2PpVpZQ03ZDYx')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Benzmawabot')
-TUTORIAL = environ.get('TUTORIAL', '')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', '')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtosolvelinks/4')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/howtosolvelinks/4')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'benzmawabot') # Support Chat Link Without https:// or @
 
 # True Or False
 PM_SEARCH = bool(environ.get('PM_SEARCH', True)) # In Pm Search Currently Spell Check Doesn't Work.
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) 
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) 
 VERIFY = bool(environ.get('VERIFY', False))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
-IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -111,9 +111,9 @@ EPISODES = ["E01", "E02", "E03", "E04", "E05", "E06", "E07", "E08", "E09", "E10"
 QUALITIES = ["360p", "480p", "720p", "1080p", "1440p", "2160p"]
 
 
-                           # Don't Remove Credit @Telugu_Movies_999
+                           # Don't Remove Credit @benzmovies
                            # Subscribe YouTube Channel For Amazing Bot @arya_bro_44
-                           # Ask Doubt on telegram @Arya_Bro
+                           # Ask Doubt on telegram @benzmawabot
 
 
 # Online Stream and Download
@@ -148,6 +148,6 @@ LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @Benzmovies 
+# Subscribe YouTube Channel For Amazing Bot @benzmawabot
+# Ask Doubt on telegram @benzmawabot 
