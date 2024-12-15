@@ -5,7 +5,7 @@
 
 class script(object):
     START_TXT = """<b><i>ʜᴇ'ʟʟᴏ {}, 🍁</i></b>\n
-  <i><b>  ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ғɪʟᴛᴇʀ ɪ ᴄᴀɴ sʜᴀʀᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs // ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ 🪄</i></b>\n\n<b><i>ᴄᴀᴍʀɪᴘ // ᴘʀᴇᴅᴠᴅ - ᴍᴏᴠɪᴇs >> <a href="t.me/PanindiaFilmz_bot">ʙᴏᴛ ʟɪɴᴋ 🍁</a></i></b>"""
+  <i><b>  ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ғɪʟᴛᴇʀ ɪ ᴄᴀɴ sʜᴀʀᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ sᴇʀɪᴇs // ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ 🪄</i></b>\n\n<b><i>Collection // Filmographies - ᴍᴏᴠɪᴇs >> <a href="t.me/Benzmovies">Channel ʟɪɴᴋ 🍁</a></i></b>"""
    
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
@@ -88,9 +88,9 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/PIFAdminBot>☢ADMIN☢</a></b>
+ <b>✯ Maintained by : <a href=https://t.me/benzmawabot>☢ADMIN☢</a></b>
   
- <b>✯ Join here : <a href=https://t.me/PanindiaFilmZ>☢UPDATES☢</a></b> 
+ <b>✯ Join here : <a href=https://t.me/Benzmovies>☢UPDATES☢</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
